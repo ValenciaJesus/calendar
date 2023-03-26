@@ -1,0 +1,92 @@
+*{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+
+.top-container{
+    width: 100%;
+    border: 3px solid pink ;
+}
+.calendar-items{
+    display: flex;
+    align-items: normal;
+}
+
+.list{
+    width: 15%;
+    padding-top: 20px;
+    color: #4472C4;
+}
+
+#heading{
+    font-weight: bold;
+    color: #4472C4;
+    text-decoration: underline;
+}
+
+a:link {
+    color: #4472C4;
+}
+
+.months{
+    list-style-type: none;
+    
+}
+
+.calendar-section{
+    width: 85%;
+    
+}
+
+.calendar-section p{
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.calendar, th, td{
+    border:1px solid #c4c4c4;
+    border-collapse: collapse;
+}
+
+.calendar{
+    width: 90%;
+    margin: 0 5%;
+}
+
+.month-heading{
+    background-color: #e0e0e0;
+}
+
+.days-heading{
+    background-color: #c0c0c0;
+}
+
+.week1, .week2, .week3, .week4, .week5, .week6{
+    background-color: #f0f0f0;
+}
+
+td{
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+td:first-child{
+    color: red;
+}
+
+td:last-child{
+    color:#a6a9ab;
+}
+
+.highlighted-date{
+    background-color: #ffecb3;
+}
+.signature{
+    padding-left: 30%;
+    
+}
+
+
